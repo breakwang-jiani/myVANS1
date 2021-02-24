@@ -1,0 +1,126 @@
+html {
+    font-size: 27.778vw;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-size: 24px;
+    float: left;
+    margin-top: 23px;
+    margin-left: 27px;
+}
+
+header {
+    height: 65px;
+    background-color: white;
+}
+
+header .iconfont {
+    float: right;
+    font-size: 26px;
+    margin-top: 23px;
+}
+
+header .icon-wenjian {
+    margin-right: 30px;
+}
+
+header .icon-xiazai {
+    margin-right: 30px;
+}
+
+h2 {
+    color: #f66c2e;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 12px;
+}
+
+h2 span {
+    color: black;
+}
+
+.body {
+    width: 100%;
+}
+
+.body img {
+    height: 90px;
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 47px;
+    text-align: center;
+    margin-left: 21px;
+}
+
+h3 {
+    margin-top: 44px;
+    font-size: 22 px;
+    margin-left: 21px;
+}
+
+h4 {
+    margin-top: 156px;
+    color: #9d9d9d;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+}
+
+h5 {
+    width: 115px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #01c758;
+    border-radius: 10px;
+    border: 1px solid #01c758;
+    margin: auto;
+    margin-top: 37px;
+    color: #ffffff;
+}
+
+.footer {
+    height: 51px;
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer ul li span {
+    font-size: 20px;
+}
+
+.footer ul li p {
+    font-size: 10px;
+}
+
+.footer ul li:nth-child(1) {
+    color: #0fe47b;
+}

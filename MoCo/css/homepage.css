@@ -1,0 +1,273 @@
+html {
+    font-size: 27.778vw;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+/* 头部 */
+
+header {
+    height: 38px;
+    background-color: #FFFFFF;
+    text-align: center;
+    line-height: 38px;
+}
+
+
+/* 内容区 */
+
+.All {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.header {
+    height: 38px;
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+header .icon-saoyisao {
+    font-size: 20px;
+    margin-right: 19px;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    height: 74px;
+    /* position: fixed; */
+    background-color: white;
+}
+
+header input {
+    color: #929292;
+    text-align: center;
+    width: 290px;
+    height: 32px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}
+
+.vul {
+    overflow: hidden;
+}
+
+.vul ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vul ul li {
+    list-style: none;
+    display: flex;
+}
+
+.vul ul li:nth-child(1) {
+    color: #2ece72;
+    position: relative;
+}
+
+.vul ul :nth-child(1)::after {
+    content: "";
+    width: 5px;
+    height: 3px;
+    position: absolute;
+    color: black;
+    top: 20px;
+    right: 0;
+    z-index: 10000;
+}
+
+.All {
+    background-color: #f1f1f1;
+}
+
+.picture {
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-bottom: 9px;
+    margin-top: 11px;
+}
+
+.picture img {
+    width: 337px;
+    height: 157px;
+    border-radius: 10px;
+}
+
+.sign li h3 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.sign {
+    background-color: #f2f2f2;
+    /* height: 55px; */
+    height: 170px;
+}
+
+.sign ul {
+    width: 337px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.sign ul li {
+    width: 67px;
+    height: 75px;
+}
+
+.sign ul li span {
+    font-size: 33px;
+}
+
+.sign li .icon-huaban1 {
+    color: #ff7f73;
+}
+
+.sign li .icon-jisuanjibiancheng {
+    color: #3dc2ff;
+}
+
+.sign li .icon-jingjiguanli {
+    color: #ffb00e;
+}
+
+.sign li .icon-xinlixue {
+    color: #ff5f21;
+}
+
+.sign li .icon-quanbu {
+    color: #1bd87c;
+}
+
+.sign li .icon-kaoyan {
+    color: #ffd676;
+}
+
+.sign li .icon-yingyu {
+    color: #ff7e86;
+}
+
+.sign li .icon-kaoshi {
+    color: #ff5f27;
+}
+
+.sign li .icon-jiuye {
+    color: #8181fc;
+}
+
+.sign li .icon-kebenyuxi {
+    color: #0fe47b;
+}
+
+.live {
+    background-color: #f2f2f2;
+    height: 409px;
+    overflow: hidden;
+}
+
+.live h4 {
+    margin-bottom: 8px;
+}
+
+.live ul {
+    overflow: hidden;
+}
+
+.live ul li p {
+    margin-top: 14px;
+    margin-left: 32px;
+}
+
+.live img {
+    width: 49px;
+    height: 49px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 32px;
+    margin-right: 12px;
+    margin-top: 14px;
+}
+
+.live p {
+    font-size: 11px;
+}
+
+.live h4 {
+    margin-left: 21px;
+}
+
+.live h5 {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.live h5 span {
+    color: #9b9b9b;
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+.live ul {
+    width: 390px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.live ul li {
+    height: 90px;
+    width: 330px;
+}
+
+.live ul h3 {
+    color: #909090;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer {
+    height: 51px;
+    background-color: white;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer ul li span {
+    font-size: 20px;
+}
+
+.footer ul li p {
+    font-size: 10px;
+}
+
+.footer ul li:nth-child(1) {
+    color: #0fe47b;
+}

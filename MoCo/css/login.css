@@ -1,0 +1,87 @@
+html {
+    font-size: 27.778vw;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.make {
+    /* background-color: yellow; */
+}
+
+.make p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.make h1 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 51px;
+}
+
+.box {
+    width: 362px;
+    height: 247px;
+    /* background-color: teal; */
+    text-align: center;
+}
+
+.box span {
+    margin-left: 30px;
+}
+
+.box input {
+    border: none;
+}
+
+.box img {
+    width: 16px;
+    height: 11px;
+    margin-left: 12px;
+    margin-right: 32px;
+}
+
+.box ul .last {
+    margin-top: 26px;
+}
+
+.box ul .last span {
+    margin-right: 61px;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    margin: auto;
+    width: 319px;
+    height: 39px;
+    /* padding: 0 200px; */
+    color: white;
+    background-color: #9ae9bc;
+    border: none;
+    border-radius: 30px;
+    font-size: 22pxx;
+    margin-top: 27px;
+}
+
+h6 {
+    color: #acacac;
+    font-weight: normal;
+}
+
+h6 .hah {
+    color: #00c251;
+}

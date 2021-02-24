@@ -1,0 +1,146 @@
+html {
+    font-size: 27.778vw;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 329px;
+    background-color: #00d877;
+    overflow: hidden;
+}
+
+.icon-shengyinlingsheng- {
+    margin-right: 30px;
+}
+
+.icon-shezhi {
+    margin-right: 7px;
+}
+
+header .iconfont {
+    font-size: 25px;
+    color: white;
+    /* margin-right: 30px; */
+    float: right;
+    margin-top: 27px;
+}
+
+header h3 {
+    border: 1px solid #faa718;
+    width: 230px;
+    height: 33px;
+    background-color: #faa718;
+    line-height: 33px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 5px;
+}
+
+.my {
+    width: 350px;
+    background-color: white;
+    height: 218px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 19px;
+    overflow: hidden;
+}
+
+.my img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-top: 31px;
+    margin-left: 27px;
+    float: left;
+    margin-right: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+.my h4 {
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
+
+.my ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my ul li {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.my ul li h6 {
+    color: #aaaaaa;
+    font-weight: normal;
+}
+
+.icon-kanjia,
+.icon-wodetuangou,
+.icon-youhuiquan {
+    color: #ff6723;
+}
+
+.icon-fenxiang {
+    color: #27ce71;
+}
+
+.icon-pingfen {
+    color: #407afe;
+}
+
+.alt ul li {
+    margin-left: 27px;
+    margin-top: 35px;
+}
+
+.alt ul li span {
+    margin-right: 17px;
+}
+
+.footer {
+    height: 51px;
+    background-color: white;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer ul li span {
+    font-size: 20px;
+}
+
+.footer ul li p {
+    font-size: 10px;
+}
+
+.footer ul li:nth-child(1) {
+    color: #0fe47b;
+}
